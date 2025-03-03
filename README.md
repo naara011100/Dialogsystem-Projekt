@@ -1,2 +1,2 @@
-# Dialogsystem-Projekt
+# Dialogsysteme-Projekt
 Chatbot
