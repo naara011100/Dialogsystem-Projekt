@@ -1,6 +1,3 @@
-# Dialogsysteme-Projekt
-Chatbot
-
 # Dialogsysteme – AI-basierter Travel Assistant „JetMate“
 
 ## Projektbeschreibung
