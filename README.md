@@ -16,11 +16,10 @@ Das entwickelte System adressiert sowohl bestehende Kunden als auch potenzielle 
 
 Das System ist in eine unternehmensinterne Umgebung eingebettet und wurde für die Integration in webbasierte Plattformen konzipiert. Besondere Aufmerksamkeit wurde auf regulatorische Rahmenbedingungen und die Relevanz klar formulierter, automatisierter Antworten gelegt.
 
-
 ## Use Case – Überblick
 
 - **Problemstellung**: Zu viele Anfragen an menschliche Mitarbeitende, lange Antwortzeiten, fehlendes digitales Servicemodell
-- **Ziel**: Automatisierung wiederkehrender Aufgaben, Entlastung des Servicepersonals, Verbesserung der Antwortgeschwindigkeit
+- **Ziel**: Automatisierung wiederkehrender Aufgaben, Entlastung des Servicepersonals, Verbesserung der Antwortgeschwindigkeit, Digitale Verfügbarkeit rund um die Uhr
 - **Zielgruppe**: Bestehende und potenzielle Kunden, interne Mitarbeitende mit regelmäßigem Reisebedarf
 - **Kontext**: Integration des Bots in das Intranet zur Bearbeitung von Buchungs- und Ausgabenanfragen in einem unternehmensinternen Umfeld
 
@@ -30,7 +29,18 @@ Das System ist in eine unternehmensinterne Umgebung eingebettet und wurde für d
 40 Jahre, Senior Consultant, international tätig. Benötigt schnelle, zuverlässige Informationen über Flugbuchungen, Hotelreservierungen und Spesenregelungen. Erwartet klare Kommunikation, Effizienz und eine stressfreie Nutzererfahrung.
 
 **Bot Persona – JetMate**  
-Hilfsbereit, effizient, professionell. Kommuniziert warm, präzise und empathisch. Entwickelt als smarter Reiseassistent, der Informationen konsolidiert und Reiseprozesse vereinfacht.
+Kerneigenschaften: Hilfsbereitschaft, Proaktivität und Effizienz. JetMate vermittelt Reiseinformationen klar und ansprechend, wodurch die Reiseplanung einfach und stressfrei wird.
+
+Hintergrund: Entwickelt als intelligenter Reiseassistent mit dem Ziel, reibungslose und stressfreie Reisen mit fachkundiger Unterstützung zu ermöglichen.
+
+Ton der Sprache: Der Tonfall ist professionell, zugleich aber auch freundlich und nahbar. Der Tonfall ist prägnant aber dennoch positiv und heiter. Zeigt Einfühlsvermögen bei der Ansprache von Anliegen oder Reiseängsten.
+
+**Verhalten & Services – JetMate** 
+JetMate bietet folgende Funktionen und Verhaltensweisen:
+- Beantwortet Anfragen zu Reisezielen, Buchungen und Logistik präzise und effizient
+- Verwaltet verschiedene Aspekte der Reiseplanung gleichzeitig, ohne Nutzer zu überfordern
+- Bietet klare, kontextbezogene Auswahlmöglichkeiten
+- Gibt proaktive Hinweise zu Reisedokumenten (Pass, Visum usw.)
 
 ## Architekturübersicht
 
