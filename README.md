@@ -56,17 +56,17 @@ Das konversationelle System wurde vollständig in **Voiceflow** modelliert und i
 
 ### Dialogflussstruktur
 
-1. **Einstieg**: Der Bot begrüsst den Nutzer und bietet sechs Hauptfunktionen an (z. B. Flugbuchung, Hotelreservierung, FAQ).
-2. **Intent-Zweig**: Je nach Auswahl des Nutzers wird ein spezialisierter Dialogfluss aktiviert.
-3. **Datensammlung**: Abfrage relevanter Daten (z. B. Abflugort, Zielort, Datum, Flugklasse)
-4. **Validierung**: Überprüfung der Eingaben (z. B. Check-in vor Check-out, unterschiedliche Städte)
-5. **API-Anbindung**: Simulierte GET-Anfragen an externe Dienste zur Buchung von Flügen, Hotels oder Touren
+1. **Einstieg**: Der Bot begrüsst den Nutzer und bietet sechs Hauptfunktionen an: Book a flight, Hotel Reservations, Book Tours, Travel FAQs, Baggage Information und Contact Support.
+2. **Intent-Zweig**: Je nach Auswahl des Nutzers wird ein spezialisierter Dialogfluss aktiviert. Dies ermöglicht eine klare Strukturierung und gezielte Informationsabfrage.
+3. **Datensammlung**: Der Bot stellt gezielte Fragen zur Erhebung notwendiger Buchungsinformationen (z. B. Abflugort, Zielort, Datum, Flugklasse)
+4. **Validierung**: Alle eingegebene Informationen werden auf Richtigkeit geprüft. (z. B. Check-in vor Check-out, unterschiedliche Städte)
+5. **API-Anbindung**: Simulierte GET-Anfragen an externe Dienste zur Buchung von Flügen, Hotels oder Touren. Die Antworten werden dynamisch verarbeitet und in die Gesprächsführung eingebunden.
 6. **Antwortgenerierung**: Nutzerspezifische Rückmeldung inkl. Zusammenfassung und Bestätigung
 
 ### Designentscheidungen
 
-- **Fallbacks**: Jedes Szenario enthält Absicherungen für Fehleingaben
-- **Nutzerführung**: Nutzung von Buttons/Choices zur Vereinfachung
+- **Fallbacks**: Jeder Dialogzweig enthält Fehlerbehandlungslogik. Bei unverständlichen Eingaben oder fehlenden Informationen wird der Nutzer freundlich zu einer erneuten Eingabe aufgefordert.
+- **Nutzerführung**: Um die Eingabe zu erleichtern und Fehler zu reduzieren, kommen visuelle Steuerelemente wie Buttons und Auswahlfelder zum Einsatz.
 - **JavaScript-Logik**: Prüfung von Bedingungen (Datumsformate, Klassenwahl etc.)
 - **API-Simulation**: Platzhalter für reale Reise- und Buchungssysteme mit strukturierter Datenübergabe
 
