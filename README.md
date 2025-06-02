@@ -87,7 +87,7 @@ Eine lauffähige Version des Prototyps wird in der finalen Phase über die Voice
 
 - Claudio Vinci
 - Daliah Beck
-- Naara Rivera
+- Naara Mata
 
 ## Lizenz & Rahmen
 
